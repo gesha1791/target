@@ -1,0 +1,202 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "dag.hodl.config.ConfigProperties",
+      "sourceType": "dag.hodl.config.ConfigProperties"
+    },
+    {
+      "name": "application.binance",
+      "type": "dag.hodl.config.ConfigProperties$Binance",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "sourceMethod": "getBinance()"
+    },
+    {
+      "name": "application.coinapi",
+      "type": "dag.hodl.config.ConfigProperties$Coinapi",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "sourceMethod": "getCoinapi()"
+    },
+    {
+      "name": "application.coinmarketcap",
+      "type": "dag.hodl.config.ConfigProperties$Coinmarketcap",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "sourceMethod": "getCoinmarketcap()"
+    },
+    {
+      "name": "application.messari",
+      "type": "dag.hodl.config.ConfigProperties$Messari",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "sourceMethod": "getMessari()"
+    },
+    {
+      "name": "application.telegram",
+      "type": "dag.hodl.config.ConfigProperties$Telegram",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "sourceMethod": "getTelegram()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.binance.api",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Binance"
+    },
+    {
+      "name": "application.binance.base",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Binance"
+    },
+    {
+      "name": "application.binance.counter",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Binance"
+    },
+    {
+      "name": "application.binance.period",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Binance"
+    },
+    {
+      "name": "application.coin-filter-list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "dag.hodl.config.ConfigProperties"
+    },
+    {
+      "name": "application.coinapi.api",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinapi"
+    },
+    {
+      "name": "application.coinapi.base",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinapi"
+    },
+    {
+      "name": "application.coinapi.counter",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinapi"
+    },
+    {
+      "name": "application.coinapi.period",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinapi"
+    },
+    {
+      "name": "application.coinapi.secret-key-api",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinapi"
+    },
+    {
+      "name": "application.coinmarketcap.api",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinmarketcap"
+    },
+    {
+      "name": "application.coinmarketcap.counter-list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinmarketcap"
+    },
+    {
+      "name": "application.coinmarketcap.name",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinmarketcap"
+    },
+    {
+      "name": "application.coinmarketcap.secret-key-api",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinmarketcap"
+    },
+    {
+      "name": "application.coinmarketcap.timeframe",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Coinmarketcap"
+    },
+    {
+      "name": "application.decimals",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.extra-decimals",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.filter-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "application.filter-rate-period",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.hundred",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.messari.api",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Messari"
+    },
+    {
+      "name": "application.messari.name",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Messari"
+    },
+    {
+      "name": "application.min-return-percent",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.percent-rate-period",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.rounding-mode",
+      "type": "java.math.RoundingMode",
+      "sourceType": "dag.hodl.config.ConfigProperties"
+    },
+    {
+      "name": "application.save-rate-period",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.telegram.api-token",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Telegram"
+    },
+    {
+      "name": "application.telegram.chat-id",
+      "type": "java.lang.String",
+      "sourceType": "dag.hodl.config.ConfigProperties$Telegram"
+    },
+    {
+      "name": "application.top-coins",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.top-coins-total",
+      "type": "java.lang.Integer",
+      "sourceType": "dag.hodl.config.ConfigProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

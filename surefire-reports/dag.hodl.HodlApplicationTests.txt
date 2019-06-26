@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dag.hodl.HodlApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.654 s - in dag.hodl.HodlApplicationTests
